@@ -25,22 +25,22 @@
 			"keys": "alt+shift+d"
 		}
 	],
+	"alwaysShowTabs": false,
 	"copyFormatting": "none",
 	"copyOnSelect": false,
 	"defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-	"disableAnimations": true,
-	"experimental.rendering.software": false,
 	"initialCols": 80,
 	"initialRows": 24,
 	"profiles": {
 		"defaults": {
-			"altGrAliasing": false,
 			"antialiasingMode": "cleartype",
-			"fontFace": "SauceCodePro NF",
-			"fontSize": 11,
-			"colorScheme": "Solarized Dark - Patched",
+			"colorScheme": "Breeze",
+			"font": {
+				"face": "Cascadia Code",
+				"size": 13,
+				"weight": "light"
+			},
 			"padding": "5, 5, 5, 5",
-			"cursorShape": "filledBox",
 			"suppressApplicationTitle": false
 		},
 		"list": [
@@ -77,6 +77,29 @@
 		]
 	},
 	"schemes": [
+		{
+			"background": "#31363B",
+			"black": "#31363B",
+			"blue": "#1D99F3",
+			"brightBlack": "#7F8C8D",
+			"brightBlue": "#3DAEE9",
+			"brightCyan": "#16A085",
+			"brightGreen": "#1CDC9A",
+			"brightPurple": "#8E44AD",
+			"brightRed": "#C0392B",
+			"brightWhite": "#FCFCFC",
+			"brightYellow": "#FDBC4B",
+			"cursorColor": "#EFF0F1",
+			"cyan": "#1ABC9C",
+			"foreground": "#EFF0F1",
+			"green": "#11D116",
+			"name": "Breeze",
+			"purple": "#9B59B6",
+			"red": "#ED1515",
+			"selectionBackground": "#EFF0F1",
+			"white": "#EFF0F1",
+			"yellow": "#F67400"
+		},
 		{
 			"background": "#0C0C0C",
 			"black": "#0C0C0C",
@@ -168,29 +191,6 @@
 			"selectionBackground": "#FFFFFF",
 			"white": "#FAFAFA",
 			"yellow": "#C18301"
-		},
-		{
-			"background": "#002B36",
-			"black": "#073642",
-			"blue": "#268BD2",
-			"brightBlack": "#002B36",
-			"brightBlue": "#839496",
-			"brightCyan": "#93A1A1",
-			"brightGreen": "#586E75",
-			"brightPurple": "#6C71C4",
-			"brightRed": "#CB4B16",
-			"brightWhite": "#FDF6E3",
-			"brightYellow": "#657B83",
-			"cursorColor": "#839496",
-			"cyan": "#2AA198",
-			"foreground": "#839496",
-			"green": "#859900",
-			"name": "Solarized Dark - Patched",
-			"purple": "#D33682",
-			"red": "#DC322F",
-			"selectionBackground": "#073642",
-			"white": "#EEE8D5",
-			"yellow": "#B58900"
 		},
 		{
 			"background": "#002B36",
@@ -308,8 +308,6 @@
 			"yellow": "#808000"
 		}
 	],
-	"alwaysShowTabs": false,
 	"showTabsInTitlebar": false,
-	"showTerminalTitleInTitlebar": true,
-	"tabWidthMode": "equal"
+	"showTerminalTitleInTitlebar": true
 }
