@@ -34,11 +34,10 @@
 	"profiles": {
 		"defaults": {
 			"antialiasingMode": "cleartype",
-			"colorScheme": "Breeze",
+			"colorScheme": "Tango Dark",
 			"font": {
-				"face": "Cascadia Code",
-				"size": 13,
-				"weight": "light"
+				"face": "Consolas",
+				"size": 14
 			},
 			"padding": "5, 5, 5, 5",
 			"suppressApplicationTitle": false
@@ -77,29 +76,6 @@
 		]
 	},
 	"schemes": [
-		{
-			"background": "#31363B",
-			"black": "#31363B",
-			"blue": "#1D99F3",
-			"brightBlack": "#7F8C8D",
-			"brightBlue": "#3DAEE9",
-			"brightCyan": "#16A085",
-			"brightGreen": "#1CDC9A",
-			"brightPurple": "#8E44AD",
-			"brightRed": "#C0392B",
-			"brightWhite": "#FCFCFC",
-			"brightYellow": "#FDBC4B",
-			"cursorColor": "#EFF0F1",
-			"cyan": "#1ABC9C",
-			"foreground": "#EFF0F1",
-			"green": "#11D116",
-			"name": "Breeze",
-			"purple": "#9B59B6",
-			"red": "#ED1515",
-			"selectionBackground": "#EFF0F1",
-			"white": "#EFF0F1",
-			"yellow": "#F67400"
-		},
 		{
 			"background": "#0C0C0C",
 			"black": "#0C0C0C",
