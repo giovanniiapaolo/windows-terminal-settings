@@ -9,12 +9,12 @@
 			"keys": "ctrl+c"
 		},
 		{
-			"command": "find",
-			"keys": "ctrl+shift+f"
-		},
-		{
 			"command": "paste",
 			"keys": "ctrl+v"
+		},
+		{
+			"command": "find",
+			"keys": "ctrl+shift+f"
 		},
 		{
 			"command": {
@@ -25,22 +25,21 @@
 			"keys": "alt+shift+d"
 		}
 	],
-	"alwaysShowTabs": false,
 	"copyFormatting": "none",
 	"copyOnSelect": false,
 	"defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+	"experimental.rendering.software": false,
 	"initialCols": 80,
 	"initialRows": 24,
 	"profiles": {
 		"defaults": {
 			"antialiasingMode": "cleartype",
-			"colorScheme": "Tango Dark",
+			"colorScheme": "Campbell",
 			"font": {
 				"face": "Consolas",
-				"size": 14
+				"size": 11
 			},
-			"padding": "5, 5, 5, 5",
-			"suppressApplicationTitle": false
+			"intenseTextStyle": "bright"
 		},
 		"list": [
 			{
@@ -284,6 +283,5 @@
 			"yellow": "#808000"
 		}
 	],
-	"showTabsInTitlebar": false,
-	"showTerminalTitleInTitlebar": true
+	"useAcrylicInTabRow": false
 }
