@@ -1,4 +1,5 @@
 {
+	"$help": "https://aka.ms/terminal-documentation",
 	"$schema": "https://aka.ms/terminal-profiles-schema",
 	"actions": [
 		{
@@ -34,22 +35,26 @@
 	"profiles": {
 		"defaults": {
 			"antialiasingMode": "cleartype",
-			"colorScheme": "Campbell",
+			"colorScheme": "Solarized Dark (modded)",
+			"cursorShape": "filledBox",
 			"font": {
-				"face": "Consolas",
+				"face": "Source Code Pro",
 				"size": 11
 			},
-			"intenseTextStyle": "bright"
+			"intenseTextStyle": "all",
+			"opacity": 75,
+			"padding": "2",
+			"useAcrylic": true
 		},
 		"list": [
 			{
-				"commandline": "powershell.exe",
+				"commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
 				"guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
 				"hidden": false,
 				"name": "Windows PowerShell"
 			},
 			{
-				"commandline": "cmd.exe",
+				"commandline": "%SystemRoot%\\System32\\cmd.exe",
 				"guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
 				"hidden": false,
 				"name": "Prompt dei comandi"
@@ -61,16 +66,16 @@
 				"source": "Windows.Terminal.Azure"
 			},
 			{
-				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+				"guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
 				"hidden": false,
 				"name": "Ubuntu",
-				"source": "Windows.Terminal.Wsl"
+				"source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
 			},
 			{
-				"guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-				"hidden": false,
-				"name": "Git Bash",
-				"source": "Git"
+				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+				"hidden": true,
+				"name": "Ubuntu",
+				"source": "Windows.Terminal.Wsl"
 			}
 		]
 	},
@@ -145,6 +150,29 @@
 			"yellow": "#E5C07B"
 		},
 		{
+			"background": "#001B26",
+			"black": "#282C34",
+			"blue": "#61AFEF",
+			"brightBlack": "#5A6374",
+			"brightBlue": "#61AFEF",
+			"brightCyan": "#56B6C2",
+			"brightGreen": "#98C379",
+			"brightPurple": "#C678DD",
+			"brightRed": "#E06C75",
+			"brightWhite": "#DCDFE4",
+			"brightYellow": "#E5C07B",
+			"cursorColor": "#FFFFFF",
+			"cyan": "#56B6C2",
+			"foreground": "#DCDFE4",
+			"green": "#98C379",
+			"name": "One Half Dark (modded)",
+			"purple": "#C678DD",
+			"red": "#E06C75",
+			"selectionBackground": "#FFFFFF",
+			"white": "#DCDFE4",
+			"yellow": "#E5C07B"
+		},
+		{
 			"background": "#FAFAFA",
 			"black": "#383A42",
 			"blue": "#0184BC",
@@ -184,6 +212,29 @@
 			"foreground": "#839496",
 			"green": "#859900",
 			"name": "Solarized Dark",
+			"purple": "#D33682",
+			"red": "#DC322F",
+			"selectionBackground": "#FFFFFF",
+			"white": "#EEE8D5",
+			"yellow": "#B58900"
+		},
+		{
+			"background": "#001B21",
+			"black": "#073642",
+			"blue": "#268BD2",
+			"brightBlack": "#657B83",
+			"brightBlue": "#839496",
+			"brightCyan": "#93A1A1",
+			"brightGreen": "#586E75",
+			"brightPurple": "#6C71C4",
+			"brightRed": "#CB4B16",
+			"brightWhite": "#FDF6E3",
+			"brightYellow": "#657B83",
+			"cursorColor": "#657B83",
+			"cyan": "#2AA198",
+			"foreground": "#839496",
+			"green": "#859900",
+			"name": "Solarized Dark (modded)",
 			"purple": "#D33682",
 			"red": "#DC322F",
 			"selectionBackground": "#FFFFFF",
@@ -260,6 +311,29 @@
 			"yellow": "#C4A000"
 		},
 		{
+			"background": "#300A24",
+			"black": "#171421",
+			"blue": "#0037DA",
+			"brightBlack": "#767676",
+			"brightBlue": "#08458F",
+			"brightCyan": "#2C9FB3",
+			"brightGreen": "#26A269",
+			"brightPurple": "#A347BA",
+			"brightRed": "#C01C28",
+			"brightWhite": "#F2F2F2",
+			"brightYellow": "#A2734C",
+			"cursorColor": "#FFFFFF",
+			"cyan": "#3A96DD",
+			"foreground": "#FFFFFF",
+			"green": "#26A269",
+			"name": "Ubuntu-ColorScheme",
+			"purple": "#881798",
+			"red": "#C21A23",
+			"selectionBackground": "#FFFFFF",
+			"white": "#CCCCCC",
+			"yellow": "#A2734C"
+		},
+		{
 			"background": "#000000",
 			"black": "#000000",
 			"blue": "#000080",
@@ -282,5 +356,6 @@
 			"white": "#C0C0C0",
 			"yellow": "#808000"
 		}
-	]
+	],
+	"useAcrylicInTabRow": true
 }
