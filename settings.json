@@ -34,12 +34,11 @@
     "profiles": {
         "defaults": {
             "antialiasingMode": "cleartype",
-            "colorScheme": "Mariana",
+            "colorScheme": "Ubuntu-ColorScheme",
             "font": {
-                "face": "DejaVu Sans Mono",
-                "size": 12
+                "face": "JetBrains Mono",
+                "size": 11
             },
-            "intenseTextStyle": "all",
             "padding": "4"
         },
         "list": [
@@ -121,29 +120,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#343D46",
-            "black": "#000000",
-            "blue": "#6699CC",
-            "brightBlack": "#333333",
-            "brightBlue": "#85ADD6",
-            "brightCyan": "#82C4C4",
-            "brightGreen": "#ACD1A8",
-            "brightPurple": "#D8B6D8",
-            "brightRed": "#F97B58",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FAC761",
-            "cursorColor": "#FCBB6A",
-            "cyan": "#5FB4B4",
-            "foreground": "#D8DEE9",
-            "green": "#99C794",
-            "name": "Mariana",
-            "purple": "#C695C6",
-            "red": "#EC5F66",
-            "selectionBackground": "#4E5A65",
-            "white": "#F7F7F7",
-            "yellow": "#F9AE58"
         },
         {
             "background": "#282C34",
