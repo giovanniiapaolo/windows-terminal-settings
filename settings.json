@@ -34,19 +34,11 @@
     "profiles": {
         "defaults": {
             "antialiasingMode": "cleartype",
-            "colorScheme": "kfocus",
-            "cursorShape": "filledBox",
+            "colorScheme": "Campbell",
             "font": {
-                "face": "Courier New",
-                "size": 12
-            },
-            "historySize": 10000,
-            "icon": null,
-            "intenseTextStyle": "all",
-            "opacity": 99,
-            "padding": "3",
-            "suppressApplicationTitle": false,
-            "useAcrylic": true
+                "face": "Fira Code",
+                "size": 11
+            }
         },
         "list": [
             {
@@ -63,7 +55,7 @@
             },
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
+                "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
@@ -311,30 +303,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
-        },
-        {
-            "background": "#0C171D",
-            "black": "#686868",
-            "blue": "#5454FF",
-            "brightBlack": "#686868",
-            "brightBlue": "#959AFF",
-            "brightCyan": "#54FFFF",
-            "brightGreen": "#7AFF78",
-            "brightPurple": "#FF89FA",
-            "brightRed": "#FF7B7B",
-            "brightWhite": "#EEEEEE",
-            "brightYellow": "#FFFF54",
-            "cursorColor": "#00FF00",
-            "cyan": "#30FFFF",
-            "foreground": "#B2B2B2",
-            "green": "#54FF54",
-            "name": "kfocus",
-            "purple": "#FF54FF",
-            "red": "#FF5454",
-            "selectionBackground": "#EEEEEE",
-            "white": "#B2B2B2",
-            "yellow": "#FFBB31"
         }
-    ],
-    "tabWidthMode": "compact"
+    ]
 }
