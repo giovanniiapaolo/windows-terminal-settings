@@ -34,7 +34,7 @@
     "profiles": {
         "defaults": {
             "antialiasingMode": "cleartype",
-            "colorScheme": "DotGov",
+            "colorScheme": "Campbell",
             "font": {
                 "face": "Hack",
                 "size": 11
@@ -119,29 +119,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#262C35",
-            "black": "#191919",
-            "blue": "#17B2E0",
-            "brightBlack": "#191919",
-            "brightBlue": "#17B2E0",
-            "brightCyan": "#8BD2ED",
-            "brightGreen": "#3D9751",
-            "brightPurple": "#7830B0",
-            "brightRed": "#BF091D",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#F6BB34",
-            "cursorColor": "#D9002F",
-            "cyan": "#8BD2ED",
-            "foreground": "#EBEBEB",
-            "green": "#3D9751",
-            "name": "DotGov",
-            "purple": "#7830B0",
-            "red": "#BF091D",
-            "selectionBackground": "#1A4080",
-            "white": "#FFFFFF",
-            "yellow": "#F6BB34"
         },
         {
             "background": "#282C34",
