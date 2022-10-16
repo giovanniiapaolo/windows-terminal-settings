@@ -31,21 +31,21 @@
 	"centerOnLaunch": true,
 	"copyFormatting": "none",
 	"copyOnSelect": false,
-	"defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+	"defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
 	"firstWindowPreference": "defaultProfile",
 	"initialCols": 108,
 	"initialRows": 36,
 	"profiles": {
 		"defaults": {
-			"antialiasingMode": "cleartype",
-			"colorScheme": "Gruvbox Dark (Hard)",
+			"antialiasingMode": "grayscale",
+			"colorScheme": "Campbell",
 			"cursorShape": "filledBox",
 			"font": {
 				"face": "Hack NFM",
 				"size": 12
 			},
 			"intenseTextStyle": "all",
-			"opacity": 99,
+			"opacity": 100,
 			"padding": "2",
 			"scrollbarState": "hidden"
 		},
@@ -64,20 +64,19 @@
 			},
 			{
 				"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-				"hidden": true,
+				"hidden": false,
 				"name": "Azure Cloud Shell",
 				"source": "Windows.Terminal.Azure"
 			},
 			{
 				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
 				"hidden": false,
-				"icon": null,
-				"name": "Ubuntu",
+				"name": "Linux",
 				"source": "Windows.Terminal.Wsl"
 			},
 			{
 				"guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-				"hidden": true,
+				"hidden": false,
 				"name": "Ubuntu",
 				"source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
 			}
@@ -129,29 +128,6 @@
 			"selectionBackground": "#FFFFFF",
 			"white": "#CCCCCC",
 			"yellow": "#C19C00"
-		},
-		{
-			"background": "#1D2021",
-			"black": "#1D2021",
-			"blue": "#458588",
-			"brightBlack": "#928374",
-			"brightBlue": "#83A598",
-			"brightCyan": "#8EC07C",
-			"brightGreen": "#B8BB26",
-			"brightPurple": "#D3869B",
-			"brightRed": "#FB4934",
-			"brightWhite": "#EBDBB2",
-			"brightYellow": "#FABD2F",
-			"cursorColor": "#EBDBB2",
-			"cyan": "#689D6A",
-			"foreground": "#EBDBB2",
-			"green": "#98971A",
-			"name": "Gruvbox Dark (Hard)",
-			"purple": "#B16286",
-			"red": "#CC241D",
-			"selectionBackground": "#3C3836",
-			"white": "#A89984",
-			"yellow": "#D79921"
 		},
 		{
 			"background": "#282C34",
