@@ -36,7 +36,7 @@
 	"initialRows": 36,
 	"profiles": {
 		"defaults": {
-			"antialiasingMode": "grayscale",
+			"antialiasingMode": "cleartype",
 			"colorScheme": "Gruvbox Dark",
 			"cursorColor": "#458588",
 			"cursorShape": "filledBox",
