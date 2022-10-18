@@ -36,9 +36,8 @@
 	"initialRows": 36,
 	"profiles": {
 		"defaults": {
-			"antialiasingMode": "cleartype",
-			"colorScheme": "Gruvbox Dark",
-			"cursorColor": "#458588",
+			"antialiasingMode": "grayscale",
+			"colorScheme": "Solarized Light",
 			"cursorShape": "filledBox",
 			"font": {
 				"face": "Hack NFM",
@@ -47,8 +46,7 @@
 			"intenseTextStyle": "all",
 			"opacity": 99,
 			"padding": "2",
-			"scrollbarState": "hidden",
-			"tabColor": "#282828"
+			"scrollbarState": "hidden"
 		},
 		"list": [
 			{
@@ -70,7 +68,7 @@
 				"source": "Windows.Terminal.Azure"
 			},
 			{
-				"commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
+				"commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu tmux",
 				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
 				"hidden": false,
 				"icon": null,
@@ -139,29 +137,6 @@
 			"yellow": "#C19C00"
 		},
 		{
-			"background": "#1D2021",
-			"black": "#1D2021",
-			"blue": "#458588",
-			"brightBlack": "#928374",
-			"brightBlue": "#83A598",
-			"brightCyan": "#8EC07C",
-			"brightGreen": "#B8BB26",
-			"brightPurple": "#D3869B",
-			"brightRed": "#FB4934",
-			"brightWhite": "#EBDBB2",
-			"brightYellow": "#FABD2F",
-			"cursorColor": "#EBDBB2",
-			"cyan": "#689D6A",
-			"foreground": "#EBDBB2",
-			"green": "#98971A",
-			"name": "Gruvbox Dark",
-			"purple": "#B16286",
-			"red": "#CC241D",
-			"selectionBackground": "#3C3836",
-			"white": "#A89984",
-			"yellow": "#D79921"
-		},
-		{
 			"background": "#282C34",
 			"black": "#282C34",
 			"blue": "#61AFEF",
@@ -209,9 +184,9 @@
 		},
 		{
 			"background": "#002B36",
-			"black": "#002B36",
+			"black": "#073642",
 			"blue": "#268BD2",
-			"brightBlack": "#073642",
+			"brightBlack": "#002B36",
 			"brightBlue": "#839496",
 			"brightCyan": "#93A1A1",
 			"brightGreen": "#586E75",
@@ -219,22 +194,22 @@
 			"brightRed": "#CB4B16",
 			"brightWhite": "#FDF6E3",
 			"brightYellow": "#657B83",
-			"cursorColor": "#FFFFFF",
+			"cursorColor": "#839496",
 			"cyan": "#2AA198",
 			"foreground": "#839496",
 			"green": "#859900",
 			"name": "Solarized Dark",
 			"purple": "#D33682",
 			"red": "#DC322F",
-			"selectionBackground": "#FFFFFF",
+			"selectionBackground": "#586E75",
 			"white": "#EEE8D5",
 			"yellow": "#B58900"
 		},
 		{
 			"background": "#FDF6E3",
-			"black": "#002B36",
+			"black": "#073642",
 			"blue": "#268BD2",
-			"brightBlack": "#073642",
+			"brightBlack": "#002B36",
 			"brightBlue": "#839496",
 			"brightCyan": "#93A1A1",
 			"brightGreen": "#586E75",
@@ -242,14 +217,14 @@
 			"brightRed": "#CB4B16",
 			"brightWhite": "#FDF6E3",
 			"brightYellow": "#657B83",
-			"cursorColor": "#002B36",
+			"cursorColor": "#657B83",
 			"cyan": "#2AA198",
 			"foreground": "#657B83",
 			"green": "#859900",
 			"name": "Solarized Light",
 			"purple": "#D33682",
 			"red": "#DC322F",
-			"selectionBackground": "#FFFFFF",
+			"selectionBackground": "#93A1A1",
 			"white": "#EEE8D5",
 			"yellow": "#B58900"
 		},
