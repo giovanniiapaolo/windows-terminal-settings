@@ -37,7 +37,7 @@
 	"profiles": {
 		"defaults": {
 			"antialiasingMode": "grayscale",
-			"colorScheme": "Solarized Light",
+			"colorScheme": "Solarized Dark",
 			"cursorShape": "filledBox",
 			"font": {
 				"face": "Hack NFM",
