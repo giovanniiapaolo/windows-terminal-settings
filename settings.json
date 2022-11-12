@@ -35,14 +35,14 @@
 		"defaults": {
 			"antialiasingMode": "grayscale",
 			"bellSound": ["null"],
-			"colorScheme": "Belafonte Night",
+			"colorScheme": "Campbell",
 			"cursorShape": "filledBox",
 			"font": {
 				"face": "Hack",
 				"size": 12
 			},
 			"intenseTextStyle": "all",
-			"opacity": 98,
+			"opacity": 100,
 			"padding": "0",
 			"scrollbarState": "hidden"
 		},
@@ -59,26 +59,25 @@
 			},
 			{
 				"guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-				"hidden": true,
+				"hidden": false,
 				"name": "Azure Cloud Shell",
 				"source": "Windows.Terminal.Azure"
 			},
 			{
 				"guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
 				"hidden": false,
-				"icon": "🧬",
 				"name": "Linux",
 				"source": "Windows.Terminal.Wsl"
 			},
 			{
 				"guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-				"hidden": true,
+				"hidden": false,
 				"name": "Ubuntu",
 				"source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
 			},
 			{
 				"guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-				"hidden": true,
+				"hidden": false,
 				"name": "Git Bash",
 				"source": "Git"
 			}
@@ -130,29 +129,6 @@
 			"selectionBackground": "#FFFFFF",
 			"white": "#CCCCCC",
 			"yellow": "#C19C00"
-		},
-		{
-			"name": "Belafonte Night",
-			"black": "#20111B",
-			"red": "#BE100E",
-			"green": "#858162",
-			"yellow": "#EAA549",
-			"blue": "#426A79",
-			"purple": "#97522C",
-			"cyan": "#989A9C",
-			"white": "#968C83",
-			"brightBlack": "#5E5252",
-			"brightRed": "#BE100E",
-			"brightGreen": "#858162",
-			"brightYellow": "#EAA549",
-			"brightBlue": "#426A79",
-			"brightPurple": "#97522C",
-			"brightCyan": "#989A9C",
-			"brightWhite": "#D5CCBA",
-			"background": "#20111B",
-			"foreground": "#968C83",
-			"selectionBackground": "#45373C",
-			"cursorColor": "#968C83"
 		},
 		{
 			"background": "#282C34",
@@ -340,6 +316,5 @@
 		}
 	],
 	"tabSwitcherMode": "mru",
-	"tabWidthMode": "titleLength",
-	"theme": "dark"
+	"tabWidthMode": "titleLength"
 }
