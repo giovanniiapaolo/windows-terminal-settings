@@ -7,9 +7,6 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
 # Runtime data
 pids
 *.pid
